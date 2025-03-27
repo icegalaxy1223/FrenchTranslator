@@ -1,0 +1,17 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "French to English Translator",
+  "version": "1.0",
+  "description": "Translates French text while preserving text in double quotes",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
